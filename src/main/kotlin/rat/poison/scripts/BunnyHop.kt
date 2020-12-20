@@ -1,6 +1,6 @@
 package rat.poison.scripts
 
-import org.jire.arrowhead.keyPressed
+import org.jire.kna.set
 import rat.poison.curSettings
 import rat.poison.game.CSGO
 import rat.poison.game.entity.onGround
@@ -11,6 +11,7 @@ import rat.poison.game.offsets.ClientOffsets.dwForceJump
 import rat.poison.scripts.aim.meDead
 import rat.poison.utils.every
 import rat.poison.utils.generalUtil.strToBool
+import rat.poison.utils.keyPressed
 import rat.poison.utils.randInt
 
 fun bunnyHop() = every(4, inGameCheck = true) {

@@ -1,6 +1,5 @@
 package rat.poison.scripts
 
-import org.jire.arrowhead.keyPressed
 import rat.poison.curSettings
 import rat.poison.game.angle
 import rat.poison.game.clientState
@@ -14,6 +13,7 @@ import rat.poison.settings.MENUTOG
 import rat.poison.utils.every
 import rat.poison.utils.generalUtil.strToBool
 import rat.poison.utils.inBackground
+import rat.poison.utils.keyPressed
 import java.awt.event.KeyEvent
 import java.awt.event.KeyEvent.VK_SPACE
 
